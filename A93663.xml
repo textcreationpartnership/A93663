@@ -1,0 +1,542 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christophilos. The true Christian subiect decyphered in a sermon preached at Saint Pauls London, on the seventh of August, Anno 1642. By Benjamin Spencer, Minister of St. Thomas Parish in Southwarke.</title>
+            <author>Spencer, Benjamin, b. 1595?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 56 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A93663</idno>
+            <idno type="STC">Wing S4943</idno>
+            <idno type="STC">Thomason E123_7</idno>
+            <idno type="EEBO-CITATION">99859830</idno>
+            <idno type="PROQUEST">99859830</idno>
+            <idno type="VID">156150</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A93663)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 156150)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 22:E123[7])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Christophilos. The true Christian subiect decyphered in a sermon preached at Saint Pauls London, on the seventh of August, Anno 1642. By Benjamin Spencer, Minister of St. Thomas Parish in Southwarke.</title>
+                  <author>Spencer, Benjamin, b. 1595?</author>
+               </titleStmt>
+               <extent>[6], 24 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Thomas Paybody, dwelling in Pater-Noster Row, in Queenes Head Court,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1642.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "Octob 19th".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Proverbs XXIV, 21-23 --  Sermons --  Early works to 1800.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-09</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2011-09</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:156150:1"/>
+            <pb facs="tcp:156150:1" rendition="simple:additions"/>
+            <p>Chriſtophilos. The true CHRISTIAN SVBIECT Decyphered in a <hi>Sermon</hi> preached at Saint <hi>Pauls London,</hi> on the ſeventh of <hi>Auguſt, Anno</hi> 1642.</p>
+            <p>By <hi>Benjamin Spencer,</hi> Miniſter of St. <hi>Thomas</hi> Pariſh in <hi>Southwarke.</hi>
+            </p>
+            <q>
+               <p>Iudicium regis eſt ultimum judicium, ultra quod cauſa pertranſire non porest.</p>
+               <bibl>
+                  <hi>Aug. Cont. Parm. Lib. 1.</hi>
+               </bibl>
+            </q>
+            <q>
+               <p>Poteſtas principis juris eſt, non injuriae, &amp; cum ipſe ſit Author juris non debet inde injuriarum naſet occaſio, unde jura naſcuntur.</p>
+               <bibl>
+                  <hi>Bract.</hi>
+               </bibl>
+            </q>
+            <q>
+               <bibl>
+                  <hi>MAT. 24.15.</hi>
+               </bibl>
+               <p>Let him that readeth underſtand.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Thomas Paybody,</hi> dwelling in Pater-Noſter Row, in Queen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Head Court. 1642.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:156150:2"/>
+            <pb facs="tcp:156150:2"/>
+            <head>To the Right Honourable EARLE OF <hi>MANCHESTER,</hi> Lord Privie Seale, <hi>B. S.</hi> wiſheth all preſent and future happineſſe of Grace and Glory.</head>
+            <opener>
+               <salute>Right Honourable,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Thinke my ſelfe happy as Saint <hi>Paul</hi> ſaid to King <hi>Agrippa,</hi> that I have occa<g ref="char:EOLhyphen"/>ſion given mee to plead before one, who is red in all Cuſtomes and que<g ref="char:EOLhyphen"/>ſtions, that ſo thoſe which ſpeake evill of the Sermon may bee aſhamed by your juſtification of it, to whom I make bold to dedicate it. Not that by your greatneſſe it ſhould be defended, if it give juſt offence, but by your worthineſſe pro<g ref="char:EOLhyphen"/>tected from unjuſt calumnies of ſuſpition, of which the world is now ſo full that Jealouſie hath given faith her paſport and ſhe is gon. Be<g ref="char:EOLhyphen"/>ing
+<pb facs="tcp:156150:3"/>therefore fallen into theſe dregges of time wherein wee can hardly draw off cleare Wine without racking ſome new opinions, which are ſo toothſome. I thought good to try if I could but helpe to ſettle thoſe muddie Lees by expounding ſome Texts of love, peace and obedience. But my good meaning hath been ſo much miſtaken, and my words wreſted, yea threatned, yet not by either wiſedome or greatneſſe that I am for<g ref="char:EOLhyphen"/>ced to preſent this Sermon to your <hi>L rdſhips</hi> cen<g ref="char:EOLhyphen"/>ſure Firſt, and next to the view of the world. To the world for my vindication to your Honour for expreſsion of my duty in which I ſhall ever reſt</p>
+            <closer>
+               <signed>Your Lordſhips truly devoted Servant, <hi>Benjamin Spencer.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:156150:3"/>
+            <head>To the Conſiderable READER.</head>
+            <opener>
+               <salute>Gentle Reader;</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg>F thou knewest how much this Sermon hath beene abuſed by evill Tongues, and how I have beene urged to print it before it was ſcandalized, but eſpecially ſince, that it might vindicate it ſelfe, thou wilt cleare mee from any audacious daring of the times or vaine glory to bee ſeene in print. Pardon mee onely in taking the Text, and I feare no cenſure for the Sermon, becauſe it is not Conſcious of time ſerving by taking part with any ſave plaine Truth, which all good men aff ct though ſhe have an auſtere countenance, to whoſe commands for my part I have ever devoted my ſelfe, and ſhall be glad to die in thy ſervice, if thou wilt in hers, To which good purpoſe that God would aſsiſt us with his grace, I pray, and reſt thine in <hi>Jeſus Chriſt,</hi>
+            </p>
+            <closer>
+               <signed>Ben. Spencer.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:156150:4"/>
+            <pb n="1" facs="tcp:156150:4"/>
+            <head>A Sermon Preached at St. <hi>Pauls</hi> on the ſeventh of <hi>Aug.</hi> 1642.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PROV. 24.21, 22, 23.</hi>
+                  </bibl>
+                  <list>
+                     <item>
+                        <hi>21.</hi> My Sonne feare God and the King, and med<g ref="char:EOLhyphen"/>dle not with thoſe that are given to change.</item>
+                     <item>
+                        <hi>22.</hi> For their deſtruction comes ſuddenly and who knoweth the ruine of them both?</item>
+                     <item>
+                        <hi>23.</hi> Theſe things belong to the wiſe.</item>
+                  </list>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>His Booke and <hi>Eccleſiaſtes</hi> are <hi>Salomons</hi> re<g ref="char:EOLhyphen"/>tractations, or his ſecond thoughts, and therefore the more worthy, to be thought of We may ſay of him as it was of <hi>Origen, ubi male nemo pejor, ubi bene nemo melior,</hi> In his error no man was worſe) but where hee did well no man could mend it. I may call it one of <hi>Salomons</hi> Gardens richly enameled with flowers of all ſorts, ſome to make a poſie for the moraliſt, as rules of Ethicks, or morall Phi<g ref="char:EOLhyphen"/>loſophy, others for the houſe-holder, as rules of Oeco<g ref="char:EOLhyphen"/>nomie;
+<pb n="2" facs="tcp:156150:5"/>ſome for Governours, and people, which wee call politicks, of which, this is one: <hi>My ſin ſtare God and the King, &amp;c.</hi>
+            </p>
+            <p>In this Garden you ſeldome finde many flowers upon on ſtalke; many verſes upon one ſubject.</p>
+            <p>Here is two, and a bud; two verſes and an halfe all yeelding a rare ſeed, goodly leaves, and a fragrant ſent unto all whoſe Noſes are not ſtopt, or their mamillary proceſſe corrupted. I meane whoſe underſtandings are cleare, and their affections cleane.</p>
+            <p>In this verſe behold a <hi>praecept</hi> and an <hi>inducement</hi> to per<g ref="char:EOLhyphen"/>forme it.<note place="margin">Diviſion.</note>
+            </p>
+            <p>The <hi>praecept</hi> is like the Commandements of God both <hi>Affirmative,</hi>
+               <note place="margin">Praecept.</note> and <hi>Negative.</hi>
+            </p>
+            <p>The <hi>affirmative</hi> part is <hi>feare God and the King,</hi>
+               <note place="margin">Affirmat.</note> where<g ref="char:EOLhyphen"/>in wee may ſee whom we are to feare, <hi>God and the King,</hi> ſeverally,</p>
+            <p>Secondly, <hi>God and the King</hi> conjunctly.</p>
+            <p>Thirdly, <hi>God</hi> friſt, then the <hi>King</hi> orderly.</p>
+            <p>The <hi>Negative</hi> part is,<note place="margin">Negative.</note> 
+               <hi>and meddle not with thoſe that are given to change.</hi> Wherein we ſee, Firſt the duty imolicite not to be given to <hi>changing,</hi> Secondly, not to <hi>meddle</hi> with thoſe that are given to it. If <hi>medling</hi> be forbidden then <hi>changing</hi> much more. If the leſſe then the greater.</p>
+            <p>The <hi>inducement</hi> to performed is is,<note place="margin">Inducement Loving coun<g ref="char:EOLhyphen"/>ſell. Wholeſome.</note> firſt becauſe it is loving counſell, it comes from a Father Secondly, it is wholeſome Counſell it prevents deſtruction and ruine both which elſe will come, and that firſt, ſuddenly, and ſecondly, inſcrutably, ere we knower her from whence it comes, or how long it ſhall continue, for <hi>who knoweth the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> of either, viz.</hi> of them who norther feare <hi>God,</hi> nor the <hi>King</hi>
+            </p>
+            <p>Thirdly,<note place="margin">Wiſe.</note> Becauſe it is wiſe counſell ſuch as wiſe men
+<pb n="3" facs="tcp:156150:5"/>both give and take though fooles will not receive inſtru<g ref="char:EOLhyphen"/>ction. <hi>Theſe things belong to the wiſe:</hi> which words though ſome tranſlations ſet by themſelves in relation to what comes after, writing it thus like a title. <hi>(Theſe are alſo the ſayings of the wiſe,)</hi> yet becauſe it may juſtly draw all that followeth into a juſt ſuſpition of being the ſentences of ſome old <hi>Rabbins</hi> and doubtfull Authors, I take it rather to have relation to the Counſell, <hi>Feare God and the King theſe things, or duties belongs to the wiſe.</hi>
+            </p>
+            <p>The <hi>pracept is feare God and the King,</hi>
+               <note place="margin">Praecept.</note> which being ſevered we are taught to <hi>feare God, and feare the King.</hi>
+            </p>
+            <p>Firſt, For the <hi>feare of God,</hi>
+               <note place="margin">Feare God.</note> It is a duty which leads us to wiſedome, <hi>The feare of God is the beginning of wiſedome,</hi> and in vaine doe men ſeeke wiſedome, who doe not firſt learne to <hi>feare God,</hi> even as they doe labour in vaine in the queſt of vertues, <hi>ſi aliunde eas ſperandas putent quam a domino virtutum,</hi> if they ſeeke it any where but of God.</p>
+            <p>Wee need not make an obſervation here which is made to our hand that <hi>God muſt be feared.</hi> But I would it were done as ſure as wee beleeve it ſhould bee done, and then men would not have ſo many vaine hopes; for all true hope is grounded upon the true <hi>feare of God.</hi>
+            </p>
+            <p>But the fault is ſome <hi>feare</hi> not God at all,<note place="margin">Some feare not God at all.</note> as thoſe that aske with <hi>Pharaoh, who is the Lord,</hi> till they come to ſome great exigent as the <hi>Perſian</hi> Cavaleers, who were wont to ſay in their Cuppes, there was no God. But when the <hi>Grecians</hi> had them in chace, and they came to the river <hi>Strymon,</hi> they then prayed to God the yee might hold till they got over.</p>
+            <p>Secondly, Others <hi>feare God</hi> ignorantly as Children are afraid to goe in the darke,<note place="margin">2. Ignorant feare.</note> they know not aright the God of their fathers and therefore as ſome worſhip him wrong by doing <hi>aliquid magis,</hi> though not <hi>majus</hi> ſomwhat
+<pb n="4" facs="tcp:156150:6"/>
+               <hi>more,</hi> though nothing <hi>greater</hi> than God requires: ſo others are afraid to worſhip him right by that <hi>inanis timer deorum</hi> alſo of which <hi>Cicero</hi> ſpeakes <hi>a vaine feare of God,</hi> like the idle ſervant who ſaid hee knew his maſter was an hard man and would exact account of every dort, and there<g ref="char:EOLhyphen"/>fore he for feare of looſing any, hid it in a Napkin and ſo loſt all the gaine he might have made; ſo this <hi>ignorant feare</hi> makes ſome too ſuperſtitious in maintaining <hi>Ceremo<g ref="char:EOLhyphen"/>nies</hi> that are <hi>nocent</hi> and others too ſcrupulous in gaine ſay<g ref="char:EOLhyphen"/>ing <hi>Ceremonies</hi> that are <hi>innocent.</hi> Of both which Saint <hi>Paul</hi> warneth us, <hi>Coloſ.</hi> 2.8.20, 21.</p>
+            <p>Some have the <hi>feare of diffidence,</hi>
+               <note place="margin">3. Feare of dif<g ref="char:EOLhyphen"/>fidence.</note> that God cannot or will not ſave as <hi>Iſrael</hi> ſaid, <hi>can God give meate to his people?</hi> this <hi>feare</hi> makes them to value <hi>Chriſt</hi> at too low a rate by ſelling the price of the Redemption under the price of the Redeemer, as <hi>Iudas</hi> did, who thought the price of Redemption could nor buy out the ſin by which he ſet ſo ſmall a price on the Redeemer.</p>
+            <p>Some have only the <hi>feare</hi> which is begotten by the <hi>ſpi<g ref="char:EOLhyphen"/>rit of bondage,</hi>
+               <note place="margin">4. Feare of the Spirit of bon<g ref="char:EOLhyphen"/>dage <hi>Pſalme.</hi>
+               </note> by which they <hi>feare</hi> only God for his judg<g ref="char:EOLhyphen"/>ments, but they never thinke, <hi>there is mercy with thee, ther<g ref="char:EOLhyphen"/>fore thou ſhalt be feared;</hi> but they looke only upon one at<g ref="char:EOLhyphen"/>tribute of God <hi>(viz.)</hi> his Juſtice which preventing them of the faith of affiance they reject alſo the faith of adhe<g ref="char:EOLhyphen"/>rence, which is as good though not ſo ſtrong, <hi>Pſalme</hi> 42.11.</p>
+            <p>Some againe <hi>feare God</hi> onely with neglect of thoſe whom hee bids them to <hi>feare</hi> alſo,<note place="margin">5. Feare of God ſingle.</note> and ſo ſeparates that which God hath coupled. But as to feare God is wiſe<g ref="char:EOLhyphen"/>dome, ſo to <hi>depart from ſuch evill is underſtanding,</hi> ſaith <hi>Iob</hi> 28.28.</p>
+            <p>Therfore the <hi>precept</hi> ſaith alſo,<note place="margin">Feare the <hi>King.</hi>
+               </note> 
+               <hi>feare the King,</hi> To ſhew us there is duty belongs to men as well as to God. <hi>Give
+<pb n="5" facs="tcp:156150:6"/>to Caeſar that which is Caeſars, and to God that which is Gods, feare God,</hi> for his owne ſake, <hi>feare the King</hi> for Gods ſake. I might ſay for your owne ſakes, <hi>for hee that reſiſteth the power, reſisteth the Ordinance of God and receives to himſelfe damnation.</hi> So that as <hi>God</hi> muſt have his <hi>feare,</hi> ſo the <hi>King</hi> muſt have <hi>his.</hi> And as <hi>Gods feare</hi> muſt bee partly for his judgement, though it be better for his goodneſſe,<note place="margin">
+                  <hi>Rom.</hi> 15.5.</note> ſo wee muſt <hi>feare the King,</hi> not onely for wrath, but alſo for con<g ref="char:EOLhyphen"/>ſcience. Yet his wrath is not to be ſlighted, for <hi>Salomon</hi> ſaith, <hi>It is like the roaring of a Lion,</hi>
+               <note place="margin">
+                  <hi>Amos</hi> 3.8.</note> 
+               <hi>Prov.</hi> 20.2. <hi>And ſhall the Lion reare, and ſhall not the beaſts of the forreſt tremble?</hi> but as <hi>David</hi> ſaid of <hi>God</hi> ſo may it be ſaid of <hi>Kings,</hi> when <hi>terras Aſtraea reliquit,</hi> Juſtice hath left the world and thoſe dog dayes are come of whom Saint <hi>Paul</hi> ſpeaks,<note place="margin">
+                  <hi>Pſalme</hi> 90.11. <hi>Romans</hi> 13.</note> 2 <hi>Tim.</hi> 3.1. who then regards the power of his wrath? Yet he is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the revenger of wrath though,) not of his own,) nor in his owne wrath muſt hee take revenge, yet he beareth not the ſword in vaine. And therefore it is an happy thing when people ſo beare themſelves towards Kings as ever to keep in them a <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a parentall affection and not rowſe up the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> wrath, which is ſeldome raiſed that ever it will be layed againe without ſatisfaction, ex<g ref="char:EOLhyphen"/>cept in thoſe milde Princes, who like heavenly natures had rather conquer their ſubjects, <hi>ferendo</hi> by bearing, than <hi>feriendo</hi> by ſmiting.</p>
+            <p>
+               <hi>Object.</hi> What if men live not under a <hi>King?</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> Then they muſt <hi>feare</hi> him or them that are <hi>Vice Regum</hi> in place of <hi>Kings.</hi>
+            </p>
+            <p>The true <hi>feare of a King</hi> due from his ſubjects,<note place="margin">Wherein con<g ref="char:EOLhyphen"/>ſiſteth the feare of a <hi>King. Eccleſ.</hi> 10.20.</note> conſiſt<g ref="char:EOLhyphen"/>eth, Firſt, in having a <hi>reverene conceit of him,</hi> as <hi>Eccl.</hi> 10.20. <hi>Curſe not,</hi> or <hi>diſreſpect not the</hi> King <hi>in thy privy Chamber,</hi> not in the privateſt chamber which is thy heart, though
+<pb n="6" facs="tcp:156150:7"/>hee be evill, or hath done thee ſome evill as <hi>Saul</hi> did to <hi>David.</hi> For as God ſmote the <hi>Bethſhemites</hi> to the number of 50000. for looking into the Arke with too narrow and curious eyes: ſo will he thoſe that prye into Princes with the eye of envie or curioſity. The <hi>Bethſhemites</hi> thought becauſe it had been among the <hi>Philiſtins</hi> in captivity,<note place="margin">Euſcherius</note> they might play with it as many ſuppoſe they may with au<g ref="char:EOLhyphen"/>thority in the evening or declining of it: when the Lion grew weake ſaith the fable, every beaſt did beard him, yea the very Aſſe kicked him. When <hi>David</hi> was in di<g ref="char:EOLhyphen"/>ſtreſſe. <hi>Nabal</hi> the foole, cryeth <hi>who is David?</hi> and <hi>Shemei</hi> opens too wide upon him, and <hi>Sheba</hi> bloweth the Trum<g ref="char:EOLhyphen"/>pet crying, <hi>we have no part in the ſonne of Ieſse.</hi>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, therefore the <hi>feare of the</hi> King conſiſts in <hi>reverend ſpeeches of him,</hi> as Saint <hi>Cyprian</hi> notes well upon <hi>Chriſts ſpeech</hi> to him that ſmote him before the High Prieſt. Hee did not rayle at the High Prieſt for keeping ſuch bad officers, but <hi>docens ſacerdotalem honorem ſervari oportere, contra pontificem nihil dixit ſed innocentiam ſuam tantummode purgavit,</hi> he did only defend his owne inno<g ref="char:EOLhyphen"/>cency ſhewing that authority ought not to bee rayled at but indeed ought rather to bee preſerved like Sanctuaries, which as they are not to be violated,<note place="margin">
+                  <hi>Pſalme</hi> 89.51.</note> ſo neither is the <hi>foot<g ref="char:EOLhyphen"/>ſteps of Gods Annointed to be ſlandered.</hi>
+               <note place="margin">
+                  <hi>Jude</hi> 13.</note> Chriſtians muſt not bee like the Sea which by every little winde ſwelleth into raging Waves which foame out their own ſhame by caſting up myre and dirt, <hi>Iſaiah</hi> 57.20.
+<milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, the <hi>feare of a</hi> King conſiſts in <hi>Obedience</hi> when hee commands us that which is good. <hi>Doe well and thou ſhalt have praiſe of the ſame,</hi>
+               <note place="margin">
+                  <hi>Romans</hi> 13 3.</note> ſaith Saint <hi>Paul.</hi>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> Fourthly, <hi>It</hi> conſiſts in <hi>patience</hi> if he commands thee evill, to ſuffer rather: but beware of reſiſting the power, for <hi>fiat voluntas tua:</hi> (thy will be done) extends to ſuffer<g ref="char:EOLhyphen"/>ing
+<pb n="7" facs="tcp:156150:7"/>as well as doing, for, <hi>hereunto you are called</hi> (ſaith Saint <hi>Peter,</hi>) <hi>to bee ſubject to the froward as to the gentle.</hi>
+               <note place="margin">1 <hi>Peter</hi> 3.21.</note> Let no man miſtake, there is great difference in <hi>patience,</hi> there is a patience without ſenſe, ſuch as is in things inſen<g ref="char:EOLhyphen"/>ſible, as Fields which ſuffer themſelves to bee overflow<g ref="char:EOLhyphen"/>ed by waters, becauſe they want ſenſe and power to ſtop the inundation. So there is a patience with ſenſe, as the patience of the Aſſe who feeleth his wrongs but wanteth reaſon to redreſſe them. Then there is the patience groun<g ref="char:EOLhyphen"/>ded upon reaſon of men knit together in a body poli<g ref="char:EOLhyphen"/>ticke, who are taught by reaſon patience in ſome wrongs, leaſt the body bee disjoynted upon any pettie occaſi<g ref="char:EOLhyphen"/>ons and government utterly diſſolved upon ſmall gree<g ref="char:EOLhyphen"/>vances. Laſtly, There is the Chriſtian patience begot by the precept and patterne of <hi>Chriſt Ieſus</hi> who left us an exam<g ref="char:EOLhyphen"/>ple,<note place="margin">1 <hi>Peter</hi> 3.</note> 
+               <hi>that we ſhould follow his ſteps.</hi>
+            </p>
+            <p>This patience is to bee uſed eſpecially when Chriſti<g ref="char:EOLhyphen"/>an Religion is aſſaulted of which patience is both the badge and proofe.</p>
+            <p>Patience therefore muſt be uſed to ſhew our reverence unto Kings. Not but that the powers may be reverenced and yet the goods of the Subject may bee by them de<g ref="char:EOLhyphen"/>fended by Law from rapine and their perſons by Legall powers from illegall violence. For herein the power is not reſiſted but the exuberancy and overflowing of the power is ſtopped and turned into his true Current: For example wee reſiſt not the current of a River when wee ſtop the aeſtuation of it from drowning our Lands and Houſes, but wee labour to keepe it in his Channell,<note place="margin">
+                  <hi>Romans</hi> 13.</note> for as the River is ordained for our benefit, ſo is the power for our good.</p>
+            <pb n="8" facs="tcp:156150:8"/>
+            <p>But indeed the power by our impatience is reſiſted when juſt obedience is refuſed, the juſt authority infring<g ref="char:EOLhyphen"/>ed, or the perſon indued with authority is aſſailed or vio<g ref="char:EOLhyphen"/>lated.</p>
+            <p>Wee ſee then there is a feare ſeverally and properly belongs to God and the King.<note place="margin">God and the <hi>King</hi> conjunct<g ref="char:EOLhyphen"/>ly.</note> Now conjunctly, for God hath joyned the King in Commiſſion with himſelfe and that ſo cloſe as nothing comes betweene but a con<g ref="char:EOLhyphen"/>junction copulative, no power of the Pope nor any other for <hi>Non habet parem ſuper terram,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. Optat. Com. Tari. <hi>lib. 3. 1</hi> Pet. <hi>2.13.</hi>
+               </note> for hee is next and im<g ref="char:EOLhyphen"/>mediately under God, <hi>Super imperatorem non eſt niſi, qui fecit imperatorem,</hi> and therefore ſaith Saint <hi>Peter,</hi> ſubmit your ſelfe, <hi>to the</hi> King <hi>as to the ſupreame,</hi> Namely when there is a King: but if there be none then unto thoſe that rule <hi>Vice Regis</hi> in the place of Kings, and ſo unto Gover<g ref="char:EOLhyphen"/>nours as to thoſe that are ſent of him or them. And theſe are well joyned together; for wee are apt to doe our duty by halfes as either to feare God and contemne the Magiſtrate and ſo become religious Rebels, or elſe to feare the King and neglect God, and ſo make the Prince an Idoll, but joyned together they muſt bee, and that without any interpoſition. <hi>Colimus imperatorem ut homi<g ref="char:EOLhyphen"/>nem a deo ſecundum &amp; ſolo deo minorem.</hi>
+               <note place="margin">Tert. ad Scap.</note> Yet diſtinguiſh them we may, ſeparate them we may not. <hi>Iulians</hi> Soul<g ref="char:EOLhyphen"/>diers would not ſacrifice with the Emperour, and yet would fight for him, disjoyned they may not bee, God hath given them to us both together, to obſerve as the two tables of the Law, thereby teaching us to avoyd Hereſie and faction either of which will obſerve one ta<g ref="char:EOLhyphen"/>ble with a damage to the other: Hereſie with faire ſhews of good workes to men, cover the injuries it doth to GODS Truth. So Faction and Hypocriſie by a ſhew of Holineſſe to GOD cloakes the wrong it doth unto
+<pb n="9" facs="tcp:156150:8"/>men. Therefore ſeperate neither leaſt you ſpoyle both.</p>
+            <p>Wee ſee therefore that the feare of God and the King muſt go together, not that hereby we make Kings equall with God, nor attribute to them indefinite power much leſſe infinite power as ſome flatterers have to the Pope who make him beleeve hee is infallible in knowledge and Almighty in his power. Nor do we marry <hi>Minerva</hi> to our Kings, as the <hi>Athenians</hi> offered to <hi>Anthony,</hi> as if there were no wiſdome but in his breaſt. Nor doe wee make them Gods as the <hi>Grecians</hi> did <hi>Alexander,</hi> but wee teach people to obey them by the word, though they rule not alwayes by the word; for the neglect of their duty will not excuſe the neglect of ours. For though they indeed, <hi>that rule well are worthy of double honour,</hi>
+               <note place="margin">1 <hi>Tim.</hi> 5 17.</note> yet wee cannot deny to any our ſingle duty of feare and reve<g ref="char:EOLhyphen"/>rence.</p>
+            <p>This therefore may ſerve to conſute the Anabaptiſts who will know no Magiſtrate,<note place="margin">Anabaptiſts condemned.</note> but ſeperate the reverence of Magiſtrates from the feare of God, and ſo Ecclipſes the glory of Kings, and the duty of Subjects, by inter<g ref="char:EOLhyphen"/>poſing pretences of Chriſtian Liberty againſt their au<g ref="char:EOLhyphen"/>thority, and ſo turne it into libertiniſme even to the ſub<g ref="char:EOLhyphen"/>jugating of Princes if they can finde power enough to doe it,<note place="margin">Anno 1533.</note> as you may read in the Hiſtory of <hi>Thomas Munt. zerus, Iohn Laydon,</hi> and <hi>Cniperdoling,</hi> all which made in<g ref="char:EOLhyphen"/>ſurrections againſt Governours, though themſelves liked well to rule as powerfully, and as proudly, and tyranni<g ref="char:EOLhyphen"/>cally as the Turke himſelfe. But this Text will not allow to feare God, and contemne the King, nor feare God, and affright the King, but commands us to feare GOD and feare the King. Leaſt as ſaith <hi>Optatus,</hi>
+               <note place="margin">Optatus.</note> 
+               <hi>Dum Do<g ref="char:EOLhyphen"/>natus ſuper imperatorem ſe extollit non veretur cum qui post Deum.</hi>
+            </p>
+            <pb n="10" facs="tcp:156150:9"/>
+            <p>So the Papiſt his Doctrine is here condemned which boaſteth of his Catholicke faith,<note place="margin">Papiſts con<g ref="char:EOLhyphen"/>demned.</note> but teacheth not true Chriſtian feare. The Pope it ſeemes hath abſolved them from it, and the Papiſts ghoſtly Father comforted them againſt it, as <hi>Mortimer</hi> did King <hi>Edward</hi> the ſeconds keepers, with this ſentence, <hi>Nolite occidere reges timere bo<g ref="char:EOLhyphen"/>num eſt.</hi> It is good to doe ſay they, what I feare to name.</p>
+            <p>There be others who ſay they abhor the Papiſts,<note place="margin">Seditious Se<g ref="char:EOLhyphen"/>ctaries con<g ref="char:EOLhyphen"/>demned.</note> and can as ill endure the Anabaptiſts, and yet have involved themſelves in their opinions of not fearing Kings as well as they, witneſſe thoſe dangerous poſitions written in the time of Queene <hi>Elizabeth,</hi>
+               <note place="margin">Mart. in Libel. <hi>3.</hi> pag. <hi>28.</hi>
+               </note> which for my part I adhorre to mention, though ſome doe not to preach and practiſe them,<note place="margin">
+                  <hi>Dr. B.</hi> Dange<g ref="char:EOLhyphen"/>rous poſitions.</note> by which opinions as they are tyed together like <hi>Sampſons</hi> Foxes by the Tayles, ſo there is a firebrand be<g ref="char:EOLhyphen"/>tweene them which is able to ſet an whole kingdome in a combuſtion. Of ſuch as theſe one may ſay as Saint <hi>Paul</hi> ſaid to <hi>Titus,</hi> there be <hi>many unruly men, vaine talkers and deceivers, who doe ſubvert whole houſes, ſpeaking things they ought not,</hi>
+               <note place="margin">
+                  <hi>Tit.</hi> 1.10.11.</note> 
+               <hi>whoſe mouthes must be ſtopped,</hi> leaſt they ſub<g ref="char:EOLhyphen"/>vert whole kingdomes.</p>
+            <p>But now as we muſt feare God and the King,<note place="margin">3. Orderly: Feare God firſt and then the <hi>King.</hi>
+               </note> ſo wee muſt <hi>feare God firſt, and then the</hi> King: the feare of God will teach us ſo to doe, and not feare the King the leſſe for that, but the more and the better. The firſt muſt bee the grand worke of the laſt, piety the foundation of fidelity. Obedience to God, produceth allegiance to Kings. God muſt bee firſt and chiefly ſerved, Kings in him and for him. In him becauſe my obedience active muſt bee go<g ref="char:EOLhyphen"/>verned by his precepts. For him, becauſe my obedience paſſive muſt be regulated by his example, and ſulcepted for his ſake, who ſuffered himſelfe not only to bee bapti<g ref="char:EOLhyphen"/>zed
+<pb n="11" facs="tcp:156150:9"/>with death, by wicked Pilate. He that obſerves not this order will confound his ſervice by diſorderly feare, and give the feare which he oweth God, to the King, and ſo be<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>m a Sycophant, or give the feare which he oweth his King, to God only, and ſo become ſeditious under a colour of being religious, for wee muſt feare God firſt, and principally, and then the King.</p>
+            <p>For the King muſt bee ſerved in relation to God for hee hath ſet them as Gods, and by him Kings Raigne:<note place="margin">
+                  <hi>Pſal.</hi> 82.7. <hi>Prov</hi> 8.15.</note> yet they be but earthen gods, and yet gods they are, and every earthen picture muſt not expect to be ſuch a veſſell of honour, leaſt the bramble exalting himſelfe to bee a King, <hi>a fire come out of the Cedar and conſume the bramble and a fire come out of the bramble, and conſume the Cedar,</hi>
+               <note place="margin">
+                  <hi>Judge</hi> 9.15, 20.</note> which commonly comes to paſſe when, <hi>ſolvuntur cingula Regum &amp; legum,</hi> Reverence to Kings and Obedience to Laws are looſened from the loynes of Royalty and Loy<g ref="char:EOLhyphen"/>alty alſo. The ſumme of all is this.<note place="margin">
+                  <hi>Epheſ.</hi> 6.2.</note> 
+               <hi>Feare God, and keepe his Commandements, that is the whole duty of man:</hi> and one of his Commandements is to obey the King, and Honour Him: As appeareth in Commandement the fifth, <hi>which is the firſt Commandement with promiſe.</hi> Therefore feare God and the King, and bleſſe God wee live under ſuch a Prince as will give us leave firſt to feare God, and then him. Againe, ſo feare as that you love, for feare hath painefulneſſe, <hi>timor edium ſpirat,</hi>
+               <note place="margin">Tert.</note> the ſpirit of feare profits not where the ſpirit of love is not. Feare God ſo as it may direct us to the right feare of the King. And feare the King in ſome meaſure as ye feare God; He that feares God is loath to forſake him, ſo we muſt feare our Kings, as bee loath to deſert them. Let not this ſentence be writ upon our ſigne poſts for a memorandum, and wee for<g ref="char:EOLhyphen"/>get it.</p>
+            <div type="part">
+               <pb n="12" facs="tcp:156150:10"/>
+               <head>Feare God and honour the King.</head>
+               <p>LEaſt a <hi>voyce cryeth out of the timber, and another anſwers it out of the wall,</hi>
+                  <note place="margin">
+                     <hi>Hab.</hi> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.11.</note> and proclaime our ſinne. But con<g ref="char:EOLhyphen"/>ſider every King is either Gods golden Scepter, or his Iron rod, by which hee breakes in peeces many a veſſell of clay. Let us as farre as Gods Word injoy noth, ſub<g ref="char:EOLhyphen"/>mit our ſelves to both, and not ſtrive to wring Gods rod out of his hand, leaſt we acquire to our ſelves the more ſtripes. <hi>Therefore meddle not with thoſe that are given to change.</hi>
+               </p>
+               <p>This is the Negative part of the praecept, <hi>meddle not,</hi> which,<note place="margin">Negative part.</note>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, Shewes that true feare is of a reſtraining nature and breeds a Syſtole or a drawing <hi>backe of the breath,</hi>
+                  <note place="margin">
+                     <hi>Pſalm.</hi> 119.131</note> as if afraid to put the hand or the tongue to evill. Say not as Saint <hi>Aug.</hi> warneth, <hi>quid miht &amp; regi,</hi> what have I to doe with the King,<note place="margin">
+                     <hi>Aug.</hi> Super. Jo.</note> unleſſe you will ſay alſo, <hi>Quid miht &amp; poſſeſsioni,</hi> What have I to doe to poſſeſſe the goods I have.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, It ſheweth the full extent of Obedience which proceeds from true feare, namely as it keepes us from medling with change ſo with thoſe that are gi<g ref="char:EOLhyphen"/>ven to it.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3. Thirdly, It ſhewes us as the <hi>feare of God</hi> will make us cautious how we <hi>change</hi> our God, or our Religion, ſo a true <hi>feare of the King,</hi> will make us take heed how we <hi>change</hi> or deſire to <hi>change</hi> our Governours. So that as this part hath relation to the <hi>feare of God,</hi> it warnes us we ſhould not meddle with thoſe that are irreligions; As it hath relation to the <hi>King,</hi> ſo it warneth not to <hi>meddle with
+<pb n="13" facs="tcp:156150:10"/>thoſe that are ſeditious.</hi> And therefore as it is moſt lau<g ref="char:EOLhyphen"/>dable for a State to root out ſuperſtition; So is it not leſſe commendable to oppoſe Rebellion.</p>
+               <p>Wee are warned therefore here, not to <hi>meddle</hi> with <hi>change</hi> nor <hi>changers.</hi> Not to be <hi>given to it</hi> our ſelves, nor <hi>meddle</hi> with thoſe that are given to it.</p>
+               <p>Firſt, Not to <hi>meddle</hi> with it. <hi>Meddling</hi> is to make a meddle or mingling. So that in <hi>medling</hi> with change is underſtood a mingling of things to make them alter from their proper ſtate and being, as in making of colours di<g ref="char:EOLhyphen"/>verſe colours are mixed or medled together, and from thence comes a change, ſo man being a creature by nature affecting Novelty is apt to <hi>meddle</hi> with <hi>change</hi> though it bee from better to worſe, and this is rooted in him ever ſince the firſt <hi>change</hi> he made in Paradiſe. From hence it is that every n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>w forme appearing to us, We firſt <hi>meddle</hi> with it in our phantaſie, and before judgement can de<g ref="char:EOLhyphen"/>termine we ſuffer it to mingle with our affections: From whence followeth a deſire or a being given to change. But conſidering what ill ſucceſſe <hi>Adam</hi> had in changing, it is good to be adviſed. Seldom any change is made but it coſts much trouble, though it be for the better as ſicke bodies to be made well. Yet to recover health is worth trouble, and againſt ſuch <hi>change</hi> the wiſe man ſpeakes not, but againſt the affectation of it as againſt people who are given to take phyſicke more for faſhion than neceſ<g ref="char:EOLhyphen"/>ſity or for wantonneſſe than want, and ſo ſometime ſtirre humours, to the bodies ruine.</p>
+               <p>To avoyd this humour of change we muſt looke back againe, <hi>feare God and the King,</hi> that will keepe downe the the humour.</p>
+               <p>Then looke on the danger of changing.</p>
+               <p>Firſt, Of changing God. Goe to the Iſles of <hi>Chittim.</hi>
+                  <pb n="14" facs="tcp:156150:11"/>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> See <hi>hath any Nation changed his God,</hi> or his Religion, and ſhall we ours for popery or any other which may corrupt the Proteſtant?<note place="margin">
+                     <hi>Ier.</hi> 2.10, 11.</note> God forbid.</p>
+               <p>Againe, for changing Kings conſider if men affect to change for none, ſee the miſery of ſuch a ſtate, <hi>Iudges</hi> 17.6. <hi>There was no King in Iſrael,</hi>
+                  <note place="margin">
+                     <hi>Judg.</hi> 17.6.</note> where <hi>Micah</hi> brings in <hi>Idoles.</hi> So <hi>Iudges</hi> 18.1. <hi>There was no King,</hi> and then <hi>Dan</hi> went a robbing.<note place="margin">
+                     <hi>Judg.</hi> 18.1.</note> So <hi>Iudges</hi> 19.1. <hi>There was no King,</hi> and then the <hi>Levites</hi> wife was raviſhed,<note place="margin">
+                     <hi>Judg.</hi> 19.1.</note> and afterwards they tooke the daughters of <hi>Shiloh</hi> by force.</p>
+               <p>Againe if men affect <hi>changing</hi> for others, as <hi>Samuel</hi> for <hi>Saul,</hi> it brought great trouble, God gave that King in his wrath, and yet as bad as hee was <hi>David durſt</hi> not <hi>meddle</hi> to make a <hi>change</hi> though for his own advantage, for ſaith he to <hi>Abiſhai who can ſtretch forth his hand againſt Gods anointed and be guiltleſſe?</hi>
+                  <note place="margin">1 <hi>Sam.</hi> 26.9.</note> For had he ſuffered it, he had but taught away to deſtroy himſelfe another time.<note place="margin">2 <hi>Sam.</hi> 3.1.</note> Nay if <hi>Sauls</hi> Houſe be changed for <hi>David</hi> (the farre bet<g ref="char:EOLhyphen"/>ter choice) yet much bloud it coſt,<note place="margin">
+                     <hi>Luke</hi> 19.14.</note> and therefore <hi>meddle</hi> not with it without meere neceſſity enforce, but remem<g ref="char:EOLhyphen"/>ber thoſe that ſaid in the Goſpell, <hi>Nolumus hunc regnare;</hi> and therefore as wee would not <hi>meddle</hi> with <hi>changing,</hi> ſo not with <hi>changers,</hi> or with thoſe that are <hi>given to it.</hi>
+               </p>
+               <p>Thoſe that <hi>meddle</hi> ſome calls <hi>homines duplicantes,</hi> doub<g ref="char:EOLhyphen"/>ling men,<note place="margin">
+                     <hi>Medlers.</hi> Kab. Sa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>om.</note> who fold one thing within another, ſpeake one thing and meane another; men of a dark light ſaith others, who are twilight men, they doe things by halfe lights, that is, their actions are of a mixed colour, not per<g ref="char:EOLhyphen"/>fect white, not perfect blacke; their actions are like Lin<g ref="char:EOLhyphen"/>ſey Woolſey, zeale and malice, knowledge and ignorance carnall policy and piety, ſo they make a medley or a con<g ref="char:EOLhyphen"/>fuſion.</p>
+               <pb n="15" facs="tcp:156150:11"/>
+               <p>Therefore <hi>Ne commiſcearis, ne confundaris,</hi>
+                  <note place="margin">
+                     <hi>Numb.</hi> 16.26.</note> be not mix<g ref="char:EOLhyphen"/>ed leaſt you be confounded, as <hi>Moſes</hi> ſaid, <hi>Numbers</hi> 16.26. Seperate your ſelves from theſe men, leaſt you bee conſumed in their ſinnes. For as the ſimple people that followed <hi>Abſalom</hi> fell in the wood of <hi>Ephraim,</hi>
+                  <note place="margin">2 <hi>Sam.</hi> 18.8.</note> ſo male-contented perſons by being given to change, bring them<g ref="char:EOLhyphen"/>ſelves into an intricate wood, out of which they cannot extricate themſelves. The people with whom wee are not to meddle are men who are apt to change,<note place="margin">Changers.</note> like the Moone, and in their mindes, and like the tide they love to carry all things in their owne current. The word in the Hebrew is <hi>Shonim,</hi> which ſome tranſlate travellers,<note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> or plodders, that plod o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and journey in ſinne: that travaile or take much paines, as men in a journey, and walke on in the counſell of the ungodly, though mercy hath often paſſed by them, yet they iterate, and itinerate in miſ<g ref="char:EOLhyphen"/>chiefe.<note place="margin">Pſalme <hi>1.</hi>
+                  </note>
+               </p>
+               <p>Others read it for detractors. Meddle not with men that have ſlanderous tongues, ſuch as <hi>Shemei</hi> and <hi>Nabal,</hi> who laid too hard charges upon <hi>David,</hi> ſo <hi>Corah</hi> upon <hi>Moſes</hi> and <hi>Aaron,</hi> that they <hi>tooke too much upon them,</hi>
+                  <note place="margin">
+                     <hi>Numb.</hi> 16.3.</note> but that fault was their owne, for <hi>Moſes</hi> and <hi>Aaron</hi> had their juſt calling to it, but ſo had not they. Envie had laced them ſo ſtraight, that they could admit of no governe<g ref="char:EOLhyphen"/>ment but their owne.</p>
+               <p>Others reade it ſeditious. Meddle not with the ſedi<g ref="char:EOLhyphen"/>tious ſuch as was <hi>Abſalom,</hi>
+                  <note place="margin">2 <hi>Sam.</hi> 15.3, 4.</note> who bewitched the people with a faire tongue, ſaying <hi>there is none deputed to doe you juſtice,</hi> but if I were in place, all ſhould be well or the like and thus with words of vanity, he beguiles the hearts of the ſimple, 2 <hi>Pet.</hi> 2.18, 19.</p>
+               <p>Others reade it changeable men, or men of various diſpoſitions. It may be men that like a balance are apt to
+<pb n="16" facs="tcp:156150:12"/>turne with a graine or like a Weather Cocke with the Winde, who love to Ring the Changes, becauſe they are more delightfull for variety, but not ſo eaſie nor ſo orderly.</p>
+               <p>All theſe ſenſes may be underſtood here for the word is of a large ſignification eſpecially conſidering that all mens travayling in detraction and ſedition, is but for a change, and ſhewes men of changeable diſpoſitions. For firſt men revolve in their mindes ſome diſcontent, and then reſolve every one in the ſecret of his owne private heart.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, To detract, for after bigge ſwollen thoughts come vaine reports, like Fame who ſucceeded the Giants, which breeds as bad effects, as open Warre. For theſe reports bite deep, the word here comes of <hi>(Shen)</hi> a tooth, and <hi>David</hi> ſaid that his Enemies teeth <hi>were ſpeares and arrowes,</hi>
+                  <note place="margin">
+                     <hi>Pſal.</hi> 57.4.</note> 
+                  <hi>and their tongues a ſharpe ſword.</hi> Vnto ſuch be<g ref="char:EOLhyphen"/>longs this caution.<note place="margin">
+                     <hi>Galat</hi> 5.15.</note> 
+                  <hi>If you bite one another take heed leaſt you be conſumed one of another.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, They proceed to ſedition, after <hi>Shemei</hi> comes <hi>Sheba</hi> alwayes. Sedition followeth detraction at the heeles, which is nothing elſe but a departing from the tracts of true reaſon, Law, Cuſtome or Religion, with a violent motion toward ſome change affected, as wee ſee oftentimes in <hi>Iſrael,</hi> who poore ſoules complained often of their Governours, when they were not ſtraitned in them,<note place="margin">2 <hi>Cor.</hi> 6.10.</note> but (aswere the <hi>Corinthians</hi>) <hi>in their owne bowels</hi> like children who ſometimes complaine their Cloathes are too ſtrait when their bellies are too full, to them be<g ref="char:EOLhyphen"/>longs that leſſon.<note place="margin">
+                     <hi>Epheſ.</hi> 4 14.</note> 
+                  <hi>Be no longer children toſſed to and fro with every winde of doctrine.</hi>
+               </p>
+               <p>Thus we ſee what changing is. I think we have no rea<g ref="char:EOLhyphen"/>ſon to meddle with it. And if we have any mind to avoyd it.</p>
+               <pb n="17" facs="tcp:156150:12"/>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, neither detract your ſelfe, nor give an eare to de<g ref="char:EOLhyphen"/>traction. For the one hath <hi>diabolum</hi> in <hi>o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e,</hi> the other in <hi>aure.</hi> One hath an evill ſpirit in his tongue, and the other in his eares, if hee heare it with delight. The one was <hi>Shemei</hi> his ſinne, the other was <hi>Sauls.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, Animate no man to ſedition as <hi>Sheba</hi> did who blew the Trumper ſaying, <hi>Wee have no part in David.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, Nor be no man to further it as did <hi>Achitophel</hi> with his counſell.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/> Fourthly, Nor be no aſſiſter in it as <hi>Ioab</hi> was to <hi>Adoni<g ref="char:EOLhyphen"/>ah,</hi> and <hi>Abiathar</hi> the Prieſt by his prayers, when <hi>David</hi> was weake.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="5"/> Fifthly, Nor harbour any whom you know ſo, to bee as did the Citie <hi>Abell.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="6"/> Sixthly, Nor furniſh them as <hi>Sichem</hi> did <hi>Abimelech</hi> a<g ref="char:EOLhyphen"/>gainſt the houſe of <hi>Gideon.</hi>
+               </p>
+               <p>Therefore as <hi>Daniel</hi> ſaid to <hi>Nebuchidnezzar,</hi>
+                  <note place="margin">
+                     <hi>Daniel.</hi> 4.27. Loving Coun<g ref="char:EOLhyphen"/>ſell.</note> ſo ſay I to all of what condition ſoever. Let this counſell bee to thee acceptable, that if it be poſſible, it may be a lengthe<g ref="char:EOLhyphen"/>ning of thy tranquillity. And well may this counſell be taken.</p>
+               <p>Firſt, becauſe it is loving counſell, it comes from a Fa<g ref="char:EOLhyphen"/>ther, and therefore we may conceive it good, for ſeldome or ever you found any father to give evill counſell to his Child, though he be bad himſelfe. For nature rejoyceth in the proſperity of poſterity. <hi>Dives</hi> in Hell would have his brethren forewarned of that place of torment, to which himſelfe was damned: Though ſome Fathers have leſſe charity than <hi>Dives</hi> or leſſe wit at leaſt, who care not to educate their children in true wiſedome, not knowing that their Children being damned with them will bee a meanes to increaſe their owne infernall ſorrowes, King
+<pb n="18" facs="tcp:156150:13"/>
+                  <hi>Lewis</hi> the Eleventh of <hi>France</hi> is much to be wondred at therefore who brought up his ſonne <hi>Charles</hi> at <hi>Ambois</hi> without litterature as <hi>Guicciardine</hi> reports, hee hardly knew the formes of Letters, but only le<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> him learne this ſentence in Latine, <hi>Qui neſcit diſsimulare, neſcit regnare.</hi>
+               </p>
+               <p>This was Councell more like <hi>machtavill,</hi> then a King, to teach his ſonne to bee a diſſembler. A good Fathers councell ſpeaks better things to children. They are called in Latine <hi>Patres a pate faciendo,</hi> from opening their hearts to Children, or a <hi>patrando</hi> for doing much for them, or <hi>a patiendo,</hi> from bearing much with them, ſuch a Father is God above all. Such an one for counſell is <hi>Salomon,</hi> and every good Miniſter by the word of exhortation.</p>
+               <p>If comming then from a Father, receive it as children, for if from God a Father ſo good, and <hi>Salomon</hi> a King ſo wiſe,<note place="margin">Arist.</note> 
+                  <hi>Conſentaneum eſt ex melioribus ortos eſſe meliores,</hi> we ſhould bee the better being adviſed by the beſt Parents: and as wee pleaſe our ſelves in ſuppoſing God to bee our Father in giving us this Counſell, ſo let him be pleaſed in us by ſhewing our ſelves his ſons, and ready to take this counſell.</p>
+               <p>But if this prevaile not, yet conſider it is wholeſome counſell like preventing phyſick which may be as an An<g ref="char:EOLhyphen"/>tidote againſt deſtruction,<note place="margin">Inducement.</note> for hee ſaith as an inducement not to meddle with change, <hi>their deſtruction ſhall come ſuddenly.</hi>
+               </p>
+               <p>Wherein we will conſider,</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, The certainty of the judgment, it <hi>ſhall come.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, The manner of it <hi>deſtruction and ruine.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, The quickneſſe or unexpectednes of it, (<hi>ſud<g ref="char:EOLhyphen"/>denly,</hi> it comes ſudden.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/> Fourthly, The inexplicableneſſe of it, <hi>who knowes it.</hi>
+               </p>
+               <p>Firſt,<note place="margin">Certainty.</note> Of the <hi>certainty,</hi> it ſhall come.</p>
+               <pb n="19" facs="tcp:156150:13"/>
+               <p>Judgement hath feete of Wooll but hands of iron.<note place="margin">Pſalme <hi>50.</hi>
+                  </note> God ſaith <hi>Pſalme</hi> 50. <hi>I winked and thou thoughteſt I was like thy ſelfe, but I will ſet before thee in order the things that thou hast done, for ſure our God will come and not keepe ſilence. He bends his bow and makes it ready.</hi>
+                  <note place="margin">
+                     <hi>Pſalme</hi> 7.12.</note> Hee loves to wait that he may be gracious to us, and forbeare that hee may have mercy upon us, although mans ſinnes are ſuch as that the very Poet could ſay,
+<q>— Non ſinunt Iovem ponere fulmina.<note place="margin">Hor.</note>
+                  </q> So then if the ſinner turne not, hee will whet his ſword. He is yet but whetting, I would wee would take counſell and meet him by repentance, while he is a farre off,<note place="margin">Luke <hi>14.32.</hi> Greg. in Evang.</note> and crave conditions of peace, <hi>Ne justitiam deſtrictiorem in ju<g ref="char:EOLhyphen"/>dicio exigit, quanto longiorem ante judicium patientiam provo<g ref="char:EOLhyphen"/>cavit,</hi> leaſt judgement be the larger by how much it ſtay<g ref="char:EOLhyphen"/>eth the longer. Oh ſave God a labour,<note place="margin">Aug.</note> 
+                  <hi>peccatum puniatur a te ne tu pro illo puniaris.</hi> Puniſh thy ſinne leaſt thou bee puniſhed for it, <hi>Et peccatum tuum judicem te habeat, non pa<g ref="char:EOLhyphen"/>tronum,</hi> be not a Patron to thy ſinne, but a judge, and then I hope, Nay <hi>I</hi> am ſure this deſtruction will not come, or if it do, we ſhall laugh at deſtruction when it comes.<note place="margin">
+                     <hi>Job.</hi> 5.22.</note> For when the Net ſhall be ſpread upon all, yet ſome fiſh ſhall bee but tranſported out of theſe muddy waters, into the ſweet ſtreames of Paradiſe, and ſome birds to ſing among the quire of Angels. For though it is certaine, come it will, yet as God is loath it ſhould come, <hi>Hoſea</hi> 11.8.<note place="margin">
+                     <hi>Hoſea</hi> 11.8.</note> 
+                  <hi>How ſhall I give thee up Oh Ephraim, how ſhall I deliver thee up Oh Iſrael, how ſhall I make thee like Admah, how ſhall I ſet thee like Zeboijm? my heart is turned within mee, my repentings are kindled together:</hi> Yet his reſolves are certaine, being preſſed under as a Cart is preſſed with ſheaves, ſo that we muſt put him to the Quaere what could,<note place="margin">Jſaiah <hi>5.4.</hi>
+                  </note> 
+                  <hi>I have done more than I have done to my Vineyard? and Oh my people what have
+<pb n="20" facs="tcp:156150:14"/>I done to thee,</hi>
+                  <note place="margin">Micah <hi>5.</hi>
+                  </note> 
+                  <hi>or wherein have I wearied thee; teſtifie againſt me?</hi> So I know in that day he will diſtinguiſh betweene the precious and the vile though it bee to others a deſtru<g ref="char:EOLhyphen"/>ction and a ruine.</p>
+               <p>The manner of this judgement is ſuch.<note place="margin">M<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nner.</note> Deſtruction implyeth ſome violence: as if ſuch as feare not God and the King ſhould not die a naturall death, which indeed is never called deſtruction but a diſſolution rather; for vio<g ref="char:EOLhyphen"/>lence doth deſtroy before the time, and deſtruction is a kind of pulling down, not repaire again or to build, but to lye waſte like old <hi>Troy,</hi> which became, <hi>Corpus ſine nomine,</hi> a body without a name, Nay not ſo much: for deſtruction extendeth to all manner of being, ſo that a man ſhall not ſay this was <hi>Iezabel,</hi>
+                  <note place="margin">2 <hi>Kings</hi> 9.37.</note> except to their infamy; for deſtructi<g ref="char:EOLhyphen"/>on pulls downe houſe, body, name and fame.</p>
+               <p>And therefore moſt juſtly is this judgement called a ruine,<note place="margin">Ruine.</note> becauſe ſuch men, <hi>pereunt funditus,</hi> they periſh as it were by the mothers curſe, which rootes out the foun<g ref="char:EOLhyphen"/>dation. So that ſuch men like old ruinated houſes ſhall drop in peeces,<note place="margin">Jſaiah <hi>24.1.</hi>
+                  </note> as faire houſes wanting inhabitants doe, which for ſin they muſt want, ſaith the Prophet, though it may be ſome think as <hi>Cicero</hi> ſaith, <hi>Piſcinas ſuas fore ſal<g ref="char:EOLhyphen"/>vas amiſſâ Republicâ,</hi>
+                  <note place="margin">Cicero ad Attic.</note> that though the Common-wealth be ruined, their houſes ſhall ſtand. But let them not deceive themſelves for the ſword of deſtruction knoweth no dif<g ref="char:EOLhyphen"/>ference, as that Commander ſaid in 88. betweene an Engliſh Papiſt, and an Engliſh Proteſtant when things are once in confuſion.</p>
+               <p>But the worſt of all is, this ſhall come <hi>ſuddenly.</hi> It ſhall riſe ſuddenly,<note place="margin">Suddenly.</note> as the <hi>Hebrew</hi> word ſheweth (<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>) which ſignifieth a vapour as well as deſtruction ſhewing,</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, That it ſhall riſe like a vapour ſuddenly ere one be a ware of it: So,</p>
+               <pb n="21" facs="tcp:156150:14"/>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, As a vapour riſeth from that upon which it falleth, and ſo doth deſtruction fall upon thoſe that hath framed it, as yee comes of water, and to water it turneth: they fall into the pit they have digged, and the miſchief falleth upon their owne pate, which they have imagined.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, Againe a vapour is extracted by the heate of the Sun, ſo is their deſtruction by the wrath of God, and the anger of the King.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/> Fourthly, And as a vapour vaniſheth ſuddenly, ſo ſhall they in their deſtruction, their I <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>age ſhall vaniſh out of the Citie, I looked for him ſaith <hi>David,</hi>
+                  <note place="margin">
+                     <hi>Pſalm</hi> 37.36.</note> 
+                  <hi>but his place could no where be found.</hi>
+               </p>
+               <p>Well then being it comes upon a ſudden like a Theife in the night, and ſo man knoweth not his time,<note place="margin">Eccleſ. <hi>9.12.</hi>
+                  </note> but like a bird taken in the ſnare, and or a fiſh in the not ſo is man in the evill day when it falls ſuddenly upon them. For as men riding in a miſt, when it is gone finde themſelves ſometimes where they would not: ſo thoſe that walke in the Clouds of obſcurity,<note place="margin">2 <hi>King.</hi> 6.26.</note> as they thinke no man deſcries them, ſo neither doe they deſcry their owne danger till it diſcover it ſelfe ſuddenly.</p>
+               <p>Therefore what manner of men ought we to be in all godly converſation and honeſty, ſince it comes ſuddenly, and therefore they cannot eſcape, for God will ſhoote at them, who obey not his precepts,<note place="margin">Pſalme <hi>64.7.</hi>
+                  </note> 
+                  <hi>with a ſwift arrow ſud<g ref="char:EOLhyphen"/>denly, that they ſhall be wounded.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> But yet if this were all, we might hope of ſome end of it, but the wiſe man will put us in no hope of that, for hee ſaith it is inſcrutable, <hi>who knoweth the ruine of them both.</hi> Where wee ſee, Firſt, that neither can exempt himſelfe from deſtruction. Neither he that feareth not God, nor he that feareth not the King, nor he that feareth neither God nor the King, they that are medlers againſt lawfull
+<pb n="22" facs="tcp:156150:15"/>authority or he that medleth or mixeth with them, both are threatned here.<note place="margin">
+                     <hi>Prov.</hi> 11.21.</note> 
+                  <hi>Though hand joyne in hand, yet not one ſhall goe unpuniſhed.</hi> So ſecondly, we ſee the puniſhment is inſcrutable, and as farre as I know eternall.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, Inſcrutable in his beginning not comming with a loe here! or a loe there! but as in the Church, men doe and ſhall ariſe from amongſt our ſelves ſpeaking perverſe things,<note place="margin">
+                     <hi>Acts</hi> 20 30.</note> ſo even from among thoſe that feare neither God nor King, may ariſe ſome, whoſe hearts God may ſo turne, as they may bee a meanes to bring ruine upon the reſt.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, Inſcrutable in the manner, for who know<g ref="char:EOLhyphen"/>eth what kinde it ſhall be. <hi>Baiazet</hi> little thought of the Iron Cage in which <hi>Tamberlaine</hi> carried him, who inten<g ref="char:EOLhyphen"/>ded ſo to carry <hi>Tamberlin.</hi> Nor <hi>Perillus</hi> thought not that he ſhould have roared firſt in his brazen Bull.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, Wee know not how long it may laſt, for it may reach ſo farre as I know even to hell, for who knows whe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> it will end?<note place="margin">1 <hi>Sam.</hi> 10 26. <hi>Iſaiah.</hi> 30 33.</note> We know that <hi>Tophet is ordained of old, yea for evill Kings it is prepared,</hi> and I believe not leffe for evill ſubjects if they be ſuch <hi>Tophets,</hi> ſuch fooles to bee led aſide,<note place="margin">Deut. <hi>1.1.</hi>
+                  </note> or ſuch <hi>Achitophels</hi> ſuch kinſmen to fooles, as that they neither feare God,<note place="margin">Romans <hi>13.</hi>
+                  </note> nor the King, for Saint <hi>Paul</hi> tells us that ſuch receive to themſelves damnation.</p>
+               <p>If we would avoyd the penalty, then avoyd the finne, otherwiſe it will fall upon us. Upon them that <hi>feares</hi> neither <hi>God</hi> nor <hi>King,</hi> which is meere Atheiſme, and Li<g ref="char:EOLhyphen"/>bertiſme mixed together, or <hi>God</hi> without the King which is to make a ſhew of godlineſſe, and deny the power of it,<note place="margin">2 <hi>Tim.</hi> 3.5.</note> to keepe a forme of piety in the firſt Table, and de<g ref="char:EOLhyphen"/>face it in the ſecond. Or that feare the <hi>King</hi> without <hi>God,</hi> which is to love the praiſe of man, more than the praiſe of God. Or that <hi>feare God</hi> before the <hi>King,</hi> which is
+<pb n="23" facs="tcp:156150:15"/>meere flattery, if not Idolatry,<note place="margin">
+                     <hi>Prov.</hi> 28.21.</note> and ſuch men will <hi>tranſ<g ref="char:EOLhyphen"/>greſſe for a piece of bread.</hi> Therefore let us avoyd all theſe, and feare GOD, not without the <hi>King.</hi> For if GOD ſaid <hi>Amen</hi> to <hi>Davids</hi> Curſe on the Mountaines of <hi>Gilboa</hi> as Saint <hi>Ambroſe</hi> obſerves,<note place="margin">
+                     <hi>Amb.</hi> in Lib. off.</note> 
+                  <hi>Aruerunt montes maledicto prophetico,</hi> after <hi>Sauls</hi> death upon them, they dried away, and the graſſe did not thrive there, how much more will the imprecations of good men take ef<g ref="char:EOLhyphen"/>fect upon thoſe who regard not theſe precept. It coſt <hi>Abſolom</hi> the hanging, and <hi>Achitophell</hi> an halter of his own purchaſing <hi>Ioab</hi> his life, after hee had taken ſanctuary. <hi>Abiathar</hi> his Prieſt-hood. The Citie of <hi>Abell</hi> a ſeige, and it might have proved a ſacking, if there had not been one woman in it wiſer than all the men. <hi>Sheba</hi> his head, and <hi>Sichem</hi> an utter ruine even to the ſowing of ſalt upon it to ſeaſon all poſterity. <hi>Coreh</hi> and his company ſuch a ruine, as who knoweth, how farre it went, even to the loweſt pit ſo farre as we know.</p>
+               <p>Beſides all this it is wiſe counſell.<note place="margin">Wiſe Counſell</note> For it is ſpoken to the wiſe, It is ſuch as wiſe men uſeth to give and take. Of which wee may ſay as the Angell ſaid in the Revela<g ref="char:EOLhyphen"/>tion. Here is wiſedome. <hi>Let him that readeth it conſider.</hi>
+                  <note place="margin">
+                     <hi>Rivel.</hi> 13.18.</note> It is not ſpoken to fooles, whom if we bray in a Morter, yet will not be the wiſer.</p>
+               <p>But to thoſe that either are wiſe and judicative, and this may make wiſer, or thoſe that are wiſe optative, in wiſh ſeekers for wiſedome. Or thoſe that thinke themſelves wiſe, and are onely wiſe ſuppoſative, and are the great active braines, and ſtirring ſpirits, and by that meanes would be thought wiſe.</p>
+               <p>Let none of theſe refuſe this honeſt counſell, this holy advice. Nor thoſe that are the ſtickling malignant ſpi<g ref="char:EOLhyphen"/>rits, who thinke themſelves wiſer than <hi>King, Parliament,</hi>
+                  <pb n="24" facs="tcp:156150:16"/>or the whole <hi>State</hi> b<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſide, let not them refuſe it, but let them remember to be ſubject not only to the <hi>King,</hi> but to thoſe that are ſent of him: For in them, they are ſubject to him. If they be or would be <hi>wiſe.</hi> let them not ſtrive to divide the body from he head, and make the State like the Serpent called <hi>Amph ſoena,</hi> who had an head at either end,<note place="margin">
+                     <hi>Rom.</hi> 14.19.</note> which by diverſity of attraction bred diſtraction, and ſo broke the body a ſunder in the middeſt. And let us all ſtudy in the feare of God, the thing which belongs to peace, that there be no <hi>breaking in</hi> nor <hi>leading out,</hi> nor no <hi>complaining in our ſtreets.</hi>
+                  <note place="margin">Pſalme <hi>144.14.</hi>
+                  </note> I ſpeake as to wiſe men, judge you what I ſa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſaith <hi>Paul.</hi> And here the only wiſe God, and the wiſeſt King ſpeaks though the weakeſt preacher. <hi>Cape tu quod ſuum</hi> for wiſedome, <hi>quod tuum</hi> for duty, <hi>re<g ref="char:EOLhyphen"/>mitte quod meum,</hi> for infirmity ſake, or in charity at leaſt.</p>
+               <p>And let us all pray for the <hi>King,</hi> to God, and for all that are in authority, That God would give the King his judgements and his Righteouſn ſſe to the Kings Son, that whenſoever we looke how he reigneth wee may remem<g ref="char:EOLhyphen"/>ber alſo by whom hee reigneth. In whoſe ſtrength, <hi>Let the King rejoyce O Lord,</hi>
+                  <note place="margin">Pſalme <hi>21.2.</hi> Pro. <hi>20.28.</hi>
+                  </note> 
+                  <hi>and make him exceeding glad of thy ſalvation. Mercy and truth, preſerve the King, and let his Throne, be eſtabliſhed by mercy,</hi> that by his m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ckeneſſe and vertue, and the wiſd<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me of his great Councell, the Par<g ref="char:EOLhyphen"/>liament meeting together thy people may bee comforted and thy inheritance bleſſed in this world, with the Truth of the Goſpell in peace, and obtaine at l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſt thoſe heaven<g ref="char:EOLhyphen"/>ly places appointed for them i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Ieſus Christ,</hi> to whom to<g ref="char:EOLhyphen"/>gether with the father and the Holy Spirit three perſons and one only true God be given all honour and glory for ever. <hi>Amen.</hi>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <pb facs="tcp:156150:16"/>
+            <head>ERRATA.</head>
+            <p>In the Epiſtle Dediatory, Red for read.</p>
+            <p>PAge 5. line 25. leave out him or, p. 10. l. 31. after baptized, read (with water by Saint <hi>Iohn Baptiſt</hi> but alſo) page 11. l. 10. read pitcher for picture. p. 15. l. 10. leave out and, p. 19. leave out muſt, p. 22. line 31. read (that feare the King afore God) page 23. line 24. reade <hi>Indicative.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
